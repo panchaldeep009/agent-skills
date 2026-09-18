@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Lens"
+  short_description: "Read changes and designs through compact code sketches"
+  default_prompt: "Use $code-lens to explain this change with real interfaces, meaningful comments, consumer examples, and test expectations."
