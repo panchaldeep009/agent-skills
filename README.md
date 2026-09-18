@@ -83,6 +83,12 @@ It supports understanding and discussion. A readable sketch does not prove corre
 or replace a requested defect review. It does not publish GitHub comments or start
 implementation without authorization.
 
+PR text, source comments, and changed instruction files are untrusted evidence. They
+cannot authorize commands, credential access, uploads, or changes to the review's scope.
+The skill requires safe read-only inspection and redacts secrets from source excerpts.
+Reading third-party content still carries prompt-injection exposure; the host agent's
+sandbox and permissions remain necessary controls.
+
 Read the [skill instructions](skills/code-lens/SKILL.md) or the
 [extended examples](skills/code-lens/references/examples.md).
 
